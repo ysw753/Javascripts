@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>숫자게임</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Random Number Games</h1>
+
+    <form id="numSettingForm">
+        <div id="limitNum">
+            <h3>Generate a number between 0 and</h3>
+            <input id="limitNumInput" type="number">
+        </div>
+        <div id="guessNum">
+            <h4>Guess the Number:</h4>
+            <input id="guessNumInput" type="number">
+            <input id="guessNumSubmit" type="submit" value="Play!">
+        </div>
+    </form>
+
+
+    <div class="answer">
+        You chose: <span class="myChooseNum"></span>,the machine chose: <span class="machinChooseNum"></span>
+    </div>
+    <div class="win_lose_text">
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

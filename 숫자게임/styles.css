@@ -1,0 +1,23 @@
+#limitNum {
+  display: flex;
+  align-items: center;
+}
+#numSettingForm h3 {
+  margin-right: 10px;
+}
+#limitNumInput {
+  height: 15px;
+}
+
+#guessNum {
+  display: flex;
+  align-items: center;
+}
+
+#guessNum h4,
+input {
+  margin-right: 5px;
+}
+.win_lose_text {
+  font-weight: bold;
+}
